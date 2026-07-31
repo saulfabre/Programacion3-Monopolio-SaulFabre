@@ -1,0 +1,85 @@
+.contenedor-principal {
+    -fx-background-color: radial-gradient(center 50% 50%, radius 75%, #BFDBAE 0%, #8FBC72 100%);
+}
+
+.contenedor-inicio {
+    -fx-background-color: radial-gradient(center 50% 40%, radius 85%, rgba(143,188,114,0.85) 0%, rgba(74,107,56,0.55)) 100%;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 25, 0, 0, 10);
+}
+
+.titulo-inicio {
+    -fx-font-family: "Poppins";
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-border-color: rgb(216, 168, 56);
+    -fx-border-width: 0 0 2 0;
+}
+
+.subtitulo-inicio {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 14px;
+    -fx-text-fill: rgba(255, 255, 255, 0.352);
+}
+
+.boton-jugadores {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to bottom, rgba(255,255,255,0.18), rgba(255,255,255,0.05));
+    -fx-background-radius: 6;
+}
+
+.boton-jugadores:selected {
+    -fx-background-color: linear-gradient(to bottom, rgba(216,168,56,0.8), rgba(216,168,56,0.6));
+    -fx-border-color: rgba(240,205,120,0.8);
+    -fx-border-radius: 6;
+}
+
+.campo-jugador {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255,255,255,0.5);
+    -fx-background-color: linear-gradient(to bottom, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
+    -fx-background-radius: 6;  
+}
+
+.campo-jugador:focused {
+    -fx-background-color: linear-gradient(to bottom, rgba(255,255,255,0.30), rgba(255,255,255,0.10));
+    -fx-border-color: rgba(240,205,120,0.8);
+    -fx-border-radius: 6;
+}
+
+.jugador-rojo {
+    -fx-fill: #D32F2F;
+    -fx-stroke: white;
+}
+
+.jugador-azul {
+    -fx-fill: #1976D2;
+    -fx-stroke: white;
+}
+
+.jugador-verde {
+    -fx-fill: #388E3C;
+    -fx-stroke: white;
+}
+
+.jugador-morado {
+    -fx-fill: #f0cc78;
+    -fx-stroke: white;
+}
+
+.boton-comenzar {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to bottom, rgba(216,168,56,0.95), rgba(216,168,56,0.75));
+    -fx-background-radius: 8;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 8, 0.0, 0, 2);
+}
+
+.boton-comenzar:hover {
+    -fx-background-color: linear-gradient(to bottom, rgba(247, 199, 89, 0.95), rgba(216,168,56,0.75));
+}
