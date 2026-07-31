@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1000.0" styleClass="contenedor-principal" stylesheets="@../styles/PantallaInicio.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefWidth="420.0" spacing="12.0" styleClass="contenedor-inicio" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefWidth="360.0" styleClass="titulo-inicio" text="NUEVA PARTIDA" />
+            <Label prefWidth="360.0" styleClass="subtitulo-inicio" text="JUGADORES" />
+            <HBox maxWidth="-Infinity" prefHeight="40.0" prefWidth="360.0" spacing="6.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" styleClass="boton-jugadores" text="2" />
+                  <ToggleButton mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" styleClass="boton-jugadores" text="3" />
+                  <ToggleButton mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" styleClass="boton-jugadores" text="4" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="30.0" prefWidth="360.0" spacing="10.0">
+               <children>
+                  <Circle fill="DODGERBLUE" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                  <TextField prefHeight="30.0" prefWidth="336.0" promptText="Jugador 1" styleClass="campo-jugador" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="30.0" prefWidth="360.0" spacing="10.0">
+               <children>
+                  <Circle fill="DODGERBLUE" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                  <TextField prefHeight="30.0" prefWidth="336.0" promptText="Jugador 2" styleClass="campo-jugador" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="30.0" prefWidth="360.0" spacing="10.0">
+               <children>
+                  <Circle fill="DODGERBLUE" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                  <TextField prefHeight="30.0" prefWidth="336.0" promptText="Jugador 3" styleClass="campo-jugador" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="30.0" prefWidth="360.0" spacing="10.0">
+               <children>
+                  <Circle fill="DODGERBLUE" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                  <TextField prefHeight="30.0" prefWidth="336.0" promptText="Jugador 4" styleClass="campo-jugador" />
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="360.0" styleClass="boton-comenzar" text="COMENZAR PARTIDA" />
+         </children>
+         <padding>
+            <Insets bottom="26.0" left="30.0" right="30.0" top="26.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
